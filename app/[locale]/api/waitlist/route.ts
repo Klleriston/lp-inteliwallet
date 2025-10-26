@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
         { error: 'Nome deve ter entre 2 e 100 caracteres' },
         { status: 400 }
       );
-    }na
+    }
 
     if (email.length > 254) {
       return NextResponse.json(
