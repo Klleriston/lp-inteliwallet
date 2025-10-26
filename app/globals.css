@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0015;
+  --foreground: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0015;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glow-purple {
+    text-shadow: 0 0 10px rgba(191, 0, 255, 0.5),
+                 0 0 20px rgba(191, 0, 255, 0.3),
+                 0 0 30px rgba(191, 0, 255, 0.2);
+  }
+
+  .glow-box {
+    box-shadow: 0 0 20px rgba(191, 0, 255, 0.3),
+                0 0 40px rgba(191, 0, 255, 0.2),
+                0 0 60px rgba(191, 0, 255, 0.1);
+  }
+
+  .border-glow {
+    border: 1px solid rgba(191, 0, 255, 0.5);
+    box-shadow: 0 0 15px rgba(191, 0, 255, 0.3);
+  }
+}

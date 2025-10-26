@@ -1,0 +1,167 @@
+{
+  "hero": {
+    "badge": "Finanças Gamificadas",
+    "title": "IntelliWallet",
+    "subtitle": "Transforme sua gestão financeira em uma",
+    "subtitleHighlight": "experiência gamificada",
+    "description": "A planilha financeira inteligente que une organização, colaboração e diversão. Adicione usuários, participe de desafios mensais e melhore sua economia de forma envolvente.",
+    "cta": "Entrar na Lista de Espera",
+    "ctaSecondary": "Saiba Mais",
+    "stats": {
+      "gamified": "Gamificado",
+      "collaborative": "Colaborativo",
+      "challenges": "Desafios",
+      "monthly": "Mensais"
+    }
+  },
+  "features": {
+    "title": "Funcionalidades Poderosas",
+    "subtitle": "Tudo que você precisa para ter controle total das suas finanças",
+    "items": {
+      "spreadsheet": {
+        "title": "Planilha Financeira Completa",
+        "description": "Gerencie suas receitas, despesas e investimentos com uma interface intuitiva e poderosa."
+      },
+      "multiuser": {
+        "title": "Multi-usuário",
+        "description": "Adicione familiares ou amigos para gerenciar finanças compartilhadas de forma colaborativa."
+      },
+      "analytics": {
+        "title": "Análises Inteligentes",
+        "description": "Visualize gráficos e relatórios detalhados sobre seus hábitos financeiros e progresso."
+      },
+      "security": {
+        "title": "Segurança Total",
+        "description": "Seus dados financeiros protegidos com criptografia de ponta e máxima privacidade."
+      },
+      "sync": {
+        "title": "Sincronização em Tempo Real",
+        "description": "Todas as mudanças sincronizadas instantaneamente entre todos os usuários."
+      },
+      "access": {
+        "title": "Acesso em Qualquer Lugar",
+        "description": "Use no computador, tablet ou smartphone. Suas finanças sempre à mão."
+      }
+    }
+  },
+  "gamification": {
+    "badge": "Gamificação",
+    "title": "Finanças Nunca Foram Tão Divertidas",
+    "subtitle": "Transforme controle financeiro em um jogo envolvente e alcance suas metas de forma divertida",
+    "items": {
+      "achievements": {
+        "title": "Sistema de Conquistas",
+        "description": "Desbloqueie conquistas ao atingir metas financeiras e desenvolver hábitos saudáveis."
+      },
+      "xp": {
+        "title": "Pontos de Experiência",
+        "description": "Ganhe XP ao registrar transações, atingir objetivos e completar desafios."
+      },
+      "goals": {
+        "title": "Metas Personalizadas",
+        "description": "Defina objetivos financeiros e acompanhe seu progresso de forma visual e motivadora."
+      },
+      "streaks": {
+        "title": "Sequências (Streaks)",
+        "description": "Mantenha sua sequência diária de controle financeiro e ganhe recompensas especiais."
+      },
+      "ranking": {
+        "title": "Níveis e Ranking",
+        "description": "Suba de nível e compare seu desempenho com outros usuários de forma amigável."
+      },
+      "rewards": {
+        "title": "Recompensas Exclusivas",
+        "description": "Desbloqueie temas, badges e recursos premium conforme você progride."
+      }
+    },
+    "progress": {
+      "title": "Exemplo de Progresso",
+      "subtitle": "Veja como seu progresso é visualizado de forma clara e motivadora",
+      "level": "Nível 12 - Investidor Consciente",
+      "totalXP": "XP Total",
+      "achievements": "Conquistas",
+      "streakDays": "Dias Streak"
+    }
+  },
+  "challenges": {
+    "badge": "Desafios Mensais",
+    "title": "Melhore Sua Economia com Desafios",
+    "subtitle": "Participe de desafios mensais, compete de forma saudável e alcance suas metas financeiras mais rápido",
+    "howItWorks": {
+      "step1": {
+        "title": "Escolha um Desafio",
+        "description": "Selecione entre diversos desafios mensais disponíveis"
+      },
+      "step2": {
+        "title": "Participe",
+        "description": "Junte-se a outros usuários e comece o desafio"
+      },
+      "step3": {
+        "title": "Acompanhe",
+        "description": "Veja seu progresso e compare com outros participantes"
+      },
+      "step4": {
+        "title": "Conquiste",
+        "description": "Complete e ganhe recompensas exclusivas"
+      }
+    },
+    "featured": "Desafios em Destaque",
+    "participants": "participantes",
+    "averageProgress": "Progresso Médio",
+    "reward": "Recompensa",
+    "joinButton": "Participar",
+    "benefits": {
+      "accelerated": {
+        "title": "Economia Acelerada",
+        "description": "Usuários que participam de desafios economizam em média 30% a mais"
+      },
+      "community": {
+        "title": "Comunidade Ativa",
+        "description": "Compartilhe dicas e motive-se com uma comunidade engajada"
+      },
+      "habits": {
+        "title": "Hábitos Duradouros",
+        "description": "Desenvolva hábitos financeiros saudáveis que duram para sempre"
+      }
+    }
+  },
+  "cta": {
+    "badge": "Lançamento em Breve",
+    "title": "Seja um dos Primeiros a Usar",
+    "subtitle": "Cadastre-se na lista de espera e seja notificado quando o IntelliWallet estiver disponível. Usuários iniciais receberão benefícios exclusivos!",
+    "form": {
+      "namePlaceholder": "Seu nome",
+      "emailPlaceholder": "seu@email.com",
+      "submitButton": "Entrar na Lista de Espera",
+      "submitting": "Enviando...",
+      "success": {
+        "title": "Bem-vindo à lista de espera!",
+        "message": "Você será notificado quando o IntelliWallet estiver disponível!"
+      },
+      "errors": {
+        "required": "Nome e email são obrigatórios",
+        "invalidEmail": "Email inválido",
+        "general": "Erro ao cadastrar. Tente novamente."
+      }
+    },
+    "benefits": {
+      "earlyAccess": {
+        "title": "Acesso Antecipado",
+        "description": "Seja um dos primeiros a usar"
+      },
+      "bonuses": {
+        "title": "Bônus Especiais",
+        "description": "XP e conquistas exclusivas"
+      },
+      "premium": {
+        "title": "Recursos Premium",
+        "description": "Grátis por tempo limitado"
+      }
+    }
+  },
+  "footer": {
+    "description": "A planilha financeira gamificada que transforma gestão de dinheiro em diversão. Controle suas finanças, participe de desafios e alcance suas metas.",
+    "contact": "Contato",
+    "copyright": "IntelliWallet. Todos os direitos reservados."
+  }
+}

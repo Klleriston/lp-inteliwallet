@@ -1,0 +1,167 @@
+{
+  "hero": {
+    "badge": "Gamified Finance",
+    "title": "IntelliWallet",
+    "subtitle": "Transform your financial management into a",
+    "subtitleHighlight": "gamified experience",
+    "description": "The intelligent financial spreadsheet that combines organization, collaboration, and fun. Add users, participate in monthly challenges, and improve your finances in an engaging way.",
+    "cta": "Join the Waitlist",
+    "ctaSecondary": "Learn More",
+    "stats": {
+      "gamified": "Gamified",
+      "collaborative": "Collaborative",
+      "challenges": "Challenges",
+      "monthly": "Monthly"
+    }
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to have complete control of your finances",
+    "items": {
+      "spreadsheet": {
+        "title": "Complete Financial Spreadsheet",
+        "description": "Manage your income, expenses, and investments with an intuitive and powerful interface."
+      },
+      "multiuser": {
+        "title": "Multi-user",
+        "description": "Add family members or friends to manage shared finances collaboratively."
+      },
+      "analytics": {
+        "title": "Smart Analytics",
+        "description": "View detailed charts and reports about your financial habits and progress."
+      },
+      "security": {
+        "title": "Total Security",
+        "description": "Your financial data protected with cutting-edge encryption and maximum privacy."
+      },
+      "sync": {
+        "title": "Real-time Sync",
+        "description": "All changes synced instantly across all users."
+      },
+      "access": {
+        "title": "Access Anywhere",
+        "description": "Use on computer, tablet, or smartphone. Your finances always at hand."
+      }
+    }
+  },
+  "gamification": {
+    "badge": "Gamification",
+    "title": "Finance Has Never Been This Fun",
+    "subtitle": "Turn financial control into an engaging game and reach your goals in a fun way",
+    "items": {
+      "achievements": {
+        "title": "Achievement System",
+        "description": "Unlock achievements by reaching financial goals and developing healthy habits."
+      },
+      "xp": {
+        "title": "Experience Points",
+        "description": "Earn XP by recording transactions, achieving objectives, and completing challenges."
+      },
+      "goals": {
+        "title": "Personalized Goals",
+        "description": "Set financial objectives and track your progress in a visual and motivating way."
+      },
+      "streaks": {
+        "title": "Streaks",
+        "description": "Maintain your daily financial control streak and earn special rewards."
+      },
+      "ranking": {
+        "title": "Levels and Ranking",
+        "description": "Level up and compare your performance with other users in a friendly way."
+      },
+      "rewards": {
+        "title": "Exclusive Rewards",
+        "description": "Unlock themes, badges, and premium features as you progress."
+      }
+    },
+    "progress": {
+      "title": "Progress Example",
+      "subtitle": "See how your progress is visualized clearly and motivatingly",
+      "level": "Level 12 - Conscious Investor",
+      "totalXP": "Total XP",
+      "achievements": "Achievements",
+      "streakDays": "Streak Days"
+    }
+  },
+  "challenges": {
+    "badge": "Monthly Challenges",
+    "title": "Improve Your Finances with Challenges",
+    "subtitle": "Participate in monthly challenges, compete healthily, and reach your financial goals faster",
+    "howItWorks": {
+      "step1": {
+        "title": "Choose a Challenge",
+        "description": "Select from various available monthly challenges"
+      },
+      "step2": {
+        "title": "Join",
+        "description": "Join other users and start the challenge"
+      },
+      "step3": {
+        "title": "Track",
+        "description": "See your progress and compare with other participants"
+      },
+      "step4": {
+        "title": "Achieve",
+        "description": "Complete and earn exclusive rewards"
+      }
+    },
+    "featured": "Featured Challenges",
+    "participants": "participants",
+    "averageProgress": "Average Progress",
+    "reward": "Reward",
+    "joinButton": "Join",
+    "benefits": {
+      "accelerated": {
+        "title": "Accelerated Savings",
+        "description": "Users who participate in challenges save on average 30% more"
+      },
+      "community": {
+        "title": "Active Community",
+        "description": "Share tips and get motivated with an engaged community"
+      },
+      "habits": {
+        "title": "Lasting Habits",
+        "description": "Develop healthy financial habits that last forever"
+      }
+    }
+  },
+  "cta": {
+    "badge": "Launching Soon",
+    "title": "Be One of the First to Use It",
+    "subtitle": "Sign up for the waitlist and be notified when IntelliWallet is available. Early users will receive exclusive benefits!",
+    "form": {
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "submitButton": "Join the Waitlist",
+      "submitting": "Submitting...",
+      "success": {
+        "title": "Welcome to the waitlist!",
+        "message": "You will be notified when IntelliWallet is available!"
+      },
+      "errors": {
+        "required": "Name and email are required",
+        "invalidEmail": "Invalid email",
+        "general": "Error signing up. Please try again."
+      }
+    },
+    "benefits": {
+      "earlyAccess": {
+        "title": "Early Access",
+        "description": "Be one of the first to use"
+      },
+      "bonuses": {
+        "title": "Special Bonuses",
+        "description": "Exclusive XP and achievements"
+      },
+      "premium": {
+        "title": "Premium Features",
+        "description": "Free for a limited time"
+      }
+    }
+  },
+  "footer": {
+    "description": "The gamified financial spreadsheet that turns money management into fun. Control your finances, participate in challenges, and achieve your goals.",
+    "contact": "Contact",
+    "copyright": "IntelliWallet. All rights reserved."
+  }
+}
