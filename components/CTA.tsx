@@ -16,7 +16,7 @@ export default function CTA() {
     setError('');
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/waitlist`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/waitlist`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
