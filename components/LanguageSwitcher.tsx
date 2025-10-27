@@ -14,13 +14,9 @@ export default function LanguageSwitcher() {
 
   const changeLanguage = (newLocale: string) => {
     startTransition(() => {
-      // Remove current locale from pathname if present
-      const pathnameWithoutLocale = pathname.replace(`/${locale}`, '') || '/';
-
-      // Add new locale to pathname
       const newPathname = newLocale === 'pt'
-        ? pathnameWithoutLocale
-        : `/${newLocale}${pathnameWithoutLocale}`;
+        ? pathname  
+        : `/${newLocale}${pathname}`;  
 
       router.replace(newPathname);
       setIsOpen(false);

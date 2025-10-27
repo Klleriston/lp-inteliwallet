@@ -15,9 +15,15 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center">
-        <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-purple-900/50 border border-purple-500/30 mb-6 sm:mb-8 backdrop-blur-sm">
+        <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-purple-900/50 border border-purple-500/30 mb-3 sm:mb-4 backdrop-blur-sm">
           <Sparkles className="w-3 sm:w-4 h-3 sm:h-4 text-neon-purple" />
           <span className="text-xs sm:text-sm text-purple-200">{t('badge')}</span>
+        </div>
+
+        <div className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-pink/20 border-2 border-neon-purple/50 mb-6 sm:mb-8 backdrop-blur-sm animate-pulse-slow glow-box">
+          <span className="text-sm sm:text-base md:text-lg font-bold text-transparent bg-gradient-to-r from-neon-purple via-neon-pink to-neon-purple bg-clip-text">
+            {t('launchDate')}
+          </span>
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 glow-purple bg-gradient-to-r from-purple-200 via-neon-purple to-purple-200 bg-clip-text text-transparent animate-float px-4">
