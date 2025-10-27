@@ -1,9 +1,10 @@
 "use client";
 
 import { Wallet, Mail} from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const t = useTranslations('footer');
 
   return (
     <footer className="relative py-10 sm:py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-purple-950/30 border-t border-purple-500/20">
@@ -19,13 +20,12 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm sm:text-base text-purple-200/70 max-w-md">
-              A planilha financeira gamificada que transforma gestão de dinheiro em diversão.
-              Controle suas finanças, participe de desafios e alcance suas metas.
+              {t('description')}
             </p>
           </div>
 
           <div>
-            <h3 className="text-base sm:text-lg font-semibold text-purple-100 mb-3 sm:mb-4">Contato</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-purple-100 mb-3 sm:mb-4">{t('contact')}</h3>
             <ul className="space-y-1.5 sm:space-y-2">
               <li className="flex items-center gap-2 text-sm sm:text-base text-purple-200/70">
                 <Mail className="w-3 sm:w-4 h-3 sm:h-4" />

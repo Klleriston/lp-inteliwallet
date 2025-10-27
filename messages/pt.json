@@ -142,6 +142,7 @@
       "errors": {
         "required": "Nome e email são obrigatórios",
         "invalidEmail": "Email inválido",
+        "signupError": "Erro ao cadastrar",
         "general": "Erro ao cadastrar. Tente novamente."
       }
     },

@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "IntelliWallet - Planilha Financeira Gamificada",
@@ -6,10 +9,20 @@ export const metadata: Metadata = {
   keywords: "finanças, gamificação, planilha financeira, desafios, economia pessoal",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return children;
+  const messages = await getMessages();
+
+  return (
+    <html lang="pt">
+      <body className="antialiased">
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
 }

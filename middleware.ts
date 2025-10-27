@@ -1,14 +1,18 @@
-import createMiddleware from 'next-intl/middleware';
-import { locales } from './i18n';
+import { NextRequest, NextResponse } from 'next/server';
 
-export default createMiddleware({
-  locales,
+export function middleware(request: NextRequest) {
+  const locale = request.cookies.get('NEXT_LOCALE')?.value || 'pt';
 
-  defaultLocale: 'pt',
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set('x-locale', locale);
 
-  localePrefix: 'as-needed'
-});
+  return NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  });
+}
 
 export const config = {
-  matcher: ['/', '/(pt|en)/:path*']
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)']
 };

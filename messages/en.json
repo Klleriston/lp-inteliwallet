@@ -142,6 +142,7 @@
       "errors": {
         "required": "Name and email are required",
         "invalidEmail": "Invalid email",
+        "signupError": "Error signing up",
         "general": "Error signing up. Please try again."
       }
     },
