@@ -77,7 +77,7 @@
     },
     "progress": {
       "title": "Progress Example",
-      "subtitle": "See how your progress is visualized clearly and motivatingly",
+      "subtitle": "See how your progress is visualized in a clear and motivating way",
       "level": "Level 12 - Conscious Investor",
       "totalXP": "Total XP",
       "achievements": "Achievements",
@@ -87,7 +87,7 @@
   "challenges": {
     "badge": "Monthly Challenges",
     "title": "Improve Your Finances with Challenges",
-    "subtitle": "Participate in monthly challenges, compete healthily, and reach your financial goals faster",
+    "subtitle": "Participate in monthly challenges, enjoy friendly competition, and reach your financial goals faster",
     "howItWorks": {
       "step1": {
         "title": "Choose a Challenge",
@@ -111,6 +111,26 @@
     "averageProgress": "Average Progress",
     "reward": "Reward",
     "joinButton": "Join",
+    "challengeList": [
+      {
+        "title": "Coffee Challenge",
+        "description": "Save R$ 200 by cutting back on out-of-home coffee expenses",
+        "reward": "50 XP + Exclusive Badge",
+        "icon": "☕"
+      },
+      {
+        "title": "Beginner Investor",
+        "description": "Invest at least R$ 500 this month",
+        "reward": "100 XP + Premium Theme",
+        "icon": "📈"
+      },
+      {
+        "title": "Household Savings",
+        "description": "Reduce grocery spending by 15%",
+        "reward": "75 XP + Rare Achievement",
+        "icon": "🛒"
+      }
+    ],
     "benefits": {
       "accelerated": {
         "title": "Accelerated Savings",

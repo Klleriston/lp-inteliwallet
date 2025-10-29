@@ -41,7 +41,7 @@
       },
       "access": {
         "title": "Acesso em Qualquer Lugar",
-        "description": "Use no computador, tablet ou smartphone. Suas finanças sempre à mão."
+        "description": "Use no computador, tablet ou celular. Suas finanças sempre à mão."
       }
     }
   },
@@ -81,13 +81,13 @@
       "level": "Nível 12 - Investidor Consciente",
       "totalXP": "XP Total",
       "achievements": "Conquistas",
-      "streakDays": "Dias Streak"
+      "streakDays": "Dias de sequência"
     }
   },
   "challenges": {
     "badge": "Desafios Mensais",
     "title": "Melhore Sua Economia com Desafios",
-    "subtitle": "Participe de desafios mensais, compete de forma saudável e alcance suas metas financeiras mais rápido",
+    "subtitle": "Participe de desafios mensais, compita de forma saudável e alcance suas metas financeiras mais rápido",
     "howItWorks": {
       "step1": {
         "title": "Escolha um Desafio",
@@ -111,6 +111,26 @@
     "averageProgress": "Progresso Médio",
     "reward": "Recompensa",
     "joinButton": "Participar",
+    "challengeList": [
+      {
+        "title": "Desafio do Café",
+        "description": "Economize R$ 200 reduzindo gastos com café fora de casa",
+        "reward": "50 XP + Badge Exclusivo",
+        "icon": "☕"
+      },
+      {
+        "title": "Investidor Iniciante",
+        "description": "Invista pelo menos R$ 500 este mês",
+        "reward": "100 XP + Tema Premium",
+        "icon": "📈"
+      },
+      {
+        "title": "Economia do Lar",
+        "description": "Reduza 15% dos gastos com mercado",
+        "reward": "75 XP + Conquista Rara",
+        "icon": "🛒"
+      }
+    ],
     "benefits": {
       "accelerated": {
         "title": "Economia Acelerada",
@@ -137,7 +157,7 @@
       "submitting": "Enviando...",
       "success": {
         "title": "Bem-vindo à lista de espera!",
-        "message": "Você será notificado quando o IntelliWallet estiver disponível!"
+        "message": "Você será avisado quando o IntelliWallet estiver disponível!"
       },
       "errors": {
         "required": "Nome e email são obrigatórios",

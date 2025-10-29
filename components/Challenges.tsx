@@ -3,35 +3,34 @@
 import { Calendar, Users2, TrendingUp, Gift, CheckCircle2 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
+type ChallengeFromI18n = {
+  title: string;
+  description: string;
+  reward: string;
+  icon: string;
+};
+
+type ChallengeExample = ChallengeFromI18n & {
+  participants: number;
+  progress: number;
+};
+
 export default function Challenges() {
   const t = useTranslations('challenges');
 
-  const challengeExamples = [
-    {
-      title: "Desafio do Café",
-      description: "Economize R$ 200 reduzindo gastos com café fora de casa",
-      participants: 1234,
-      progress: 65,
-      reward: "50 XP + Badge Exclusivo",
-      icon: "☕"
-    },
-    {
-      title: "Investidor Iniciante",
-      description: "Invista pelo menos R$ 500 este mês",
-      participants: 856,
-      progress: 40,
-      reward: "100 XP + Tema Premium",
-      icon: "📈"
-    },
-    {
-      title: "Economia Doméstica",
-      description: "Reduza 15% dos gastos com mercado",
-      participants: 2341,
-      progress: 80,
-      reward: "75 XP + Conquista Rara",
-      icon: "🛒"
-    }
+  const list = (t.raw('challengeList') as ChallengeFromI18n[]) ?? [];
+
+  const metricsFallback = [
+    { participants: 1234, progress: 65 },
+    { participants: 856,  progress: 40 },
+    { participants: 2341, progress: 80 }
   ];
+
+  const challengeExamples: ChallengeExample[] = list.map((item, idx) => ({
+    ...item,
+    participants: metricsFallback[idx]?.participants ?? 0,
+    progress: metricsFallback[idx]?.progress ?? 0
+  }));
 
   return (
     <section className="relative py-16 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-purple-950/20">
@@ -115,7 +114,7 @@ export default function Challenges() {
                       <div
                         className="h-full bg-gradient-to-r from-purple-500 to-neon-purple rounded-full transition-all duration-500"
                         style={{ width: `${challenge.progress}%` }}
-                      ></div>
+                      />
                     </div>
                   </div>
 
@@ -134,7 +133,7 @@ export default function Challenges() {
             </div>
           ))}
         </div>
-        
+
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mt-12 sm:mt-16">
           <div className="p-5 sm:p-6 rounded-2xl bg-purple-900/20 border border-purple-500/20 backdrop-blur-sm">
             <TrendingUp className="w-7 sm:w-8 h-7 sm:h-8 text-neon-purple mb-3 sm:mb-4" />
